@@ -24,7 +24,7 @@ describe('Fizzbuzz', function () {
 
     it('divisible by 5', function() {
       fizzbuzz = new Fizzbuzz();
-      expect(fizzbuzz.isDivisibleByFive(5)).toBe(false);
+      expect(fizzbuzz.isDivisibleByFive(1)).toBe(false);
     });
   });
 });
