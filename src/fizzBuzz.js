@@ -12,6 +12,12 @@ class Fizzbuzz {
   }
 
   _isDivisibleBy(number, divisor) {
-    return (number % divisor === 0);
+    return number % divisor === 0;
+  }
+
+  says(number) {
+    if (this.isDivisibleByThree(number)) {
+      return "Fizz";
+    }
   }
 }
