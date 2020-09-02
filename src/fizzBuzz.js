@@ -22,6 +22,8 @@ class Fizzbuzz {
       return "Fizz";
     } else if (this.isDivisibleByFive(number)) {
       return "Buzz";
+    } else {
+      return number;
     }
   }
 }

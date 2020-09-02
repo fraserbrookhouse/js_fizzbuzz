@@ -47,7 +47,7 @@ describe("Fizzbuzz", function () {
     });
 
     it("returns number if not divisible by 3, 5, or 15", function () {
-      expect(fizzbuzz.says(42)).toEqual("42")
+      expect(fizzbuzz.says(43)).toEqual(43)
     })
   });
 });
