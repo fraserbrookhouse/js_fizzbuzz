@@ -1,17 +1,9 @@
 class Fizzbuzz {
   isDivisibleByThree(number) {
-    if (number % 3 === 0) {
-      return true;
-    } else {
-      return false;
-    }
+    return !!(number % 3 === 0);
   }
 
   isDivisibleByFive(number) {
-    if (number % 5 === 0) {
-      return true;
-    } else {
-      return false;
-    }
+    return !!(number % 5 === 0);
   }
 }
