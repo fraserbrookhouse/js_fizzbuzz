@@ -18,12 +18,13 @@ class Fizzbuzz {
   says(number) {
     if (this.isDivisibleByFifteen(number)) {
       return "FizzBuzz";
-    } else if (this.isDivisibleByThree(number)) {
-      return "Fizz";
-    } else if (this.isDivisibleByFive(number)) {
-      return "Buzz";
-    } else {
-      return number;
     }
+    if (this.isDivisibleByThree(number)) {
+      return "Fizz";
+    }
+    if (this.isDivisibleByFive(number)) {
+      return "Buzz";
+    }
+    return number;
   }
 }
