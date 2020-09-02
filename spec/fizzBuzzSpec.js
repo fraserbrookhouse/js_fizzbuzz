@@ -34,8 +34,8 @@ describe("Fizzbuzz", function () {
   });
 
   describe("when playing, says", function () {
-    it('"Java" when a number is divisible by 3', function () {
-      expect(fizzbuzz.says(3)).toEqual("Java");
+    it('"Fizz" when a number is divisible by 3', function () {
+      expect(fizzbuzz.says(3)).toEqual("Fizz");
     });
   });
 });
